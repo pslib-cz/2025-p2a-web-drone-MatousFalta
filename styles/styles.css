@@ -43,7 +43,7 @@ layer(init);
   }
 
   header {
-    background-image: url("../images/header-2560w.webp");
+    background-image: url("/images/header-2560w.webp");
     background-size: cover;
     background-position: top left;
     background-color: var(--header-bg-color);
@@ -85,6 +85,10 @@ layer(init);
     text-align: center;
     margin-top: 0.5em;
   }
+  .info-box > h2{
+    color: white;
+  } 
+
   .heading-1{
     font-size: 2em;
   }
@@ -127,8 +131,13 @@ layer(init);
   .info-box{
     background-color: var(--header-bg-color);
   }
-
-
+  .info-box_p{
+    color: white;
+  }
+  .button-zakoupit{
+    text-decoration: none;
+    color: black;
+  }
   footer {
     background-color: #3b3e40;
     color: var(--text-color);
