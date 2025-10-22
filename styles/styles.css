@@ -130,13 +130,23 @@ layer(init);
   }
   .info-box{
     background-color: var(--header-bg-color);
+    padding: 1rem 2rem; 
+    text-align: center;
+    margin-top: 2rem;
   }
   .info-box_p{
     color: white;
+    margin: 1.5em;
   }
   .button-zakoupit{
     text-decoration: none;
     color: black;
+    display: inline-block;
+    background-color: white;
+    padding: 1.5rem 4rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    font-size: 1.2rem;
   }
   footer {
     background-color: #3b3e40;
