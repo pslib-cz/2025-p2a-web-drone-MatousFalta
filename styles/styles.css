@@ -85,6 +85,12 @@ layer(init);
     text-align: center;
     margin-top: 0.5em;
   }
+  .img-fluid{
+    display: block;
+    max-width: 100%;  
+    height: auto;
+    margin: 0.5em;
+  }
   .info-box > h2{
     color: white;
   } 
@@ -132,7 +138,7 @@ layer(init);
     background-color: var(--header-bg-color);
     padding: 1rem 2rem; 
     text-align: center;
-    margin-top: 2rem;
+    margin: 2em 0;
   }
   .info-box_p{
     color: white;
@@ -147,6 +153,19 @@ layer(init);
     border-radius: 1rem;
     font-weight: bold;
     font-size: 1.2rem;
+  }
+  .gallery{
+    box-sizing: border-box;
+  }
+  .gallery-item{
+  
+    width: calc(50%-1rem);
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 0.5rem 1rem 0.5rem;
+  }
+  .gallery-item--w100{
+    display: ;
   }
   footer {
     background-color: #3b3e40;
